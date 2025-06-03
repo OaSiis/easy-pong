@@ -8,6 +8,5 @@ services:
       - "5173:5173"
     volumes:
       - ./@app/client:/var/www/@app/client:cached
-      - /var/www/@app/client/node_modules
     environment:
       - NODE_ENV=development

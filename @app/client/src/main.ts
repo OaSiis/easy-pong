@@ -1,3 +1,7 @@
-import { ChatWidgets } from "./services/chat-widget";
+import { initApp } from "./app";
 
-new ChatWidgets('chat-widget-root');
+const root = document.getElementById("app") as HTMLElement;
+
+const router = initApp(root);
+
+router.start();

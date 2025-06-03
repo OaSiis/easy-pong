@@ -4,7 +4,7 @@
   "description": "Pong client side",
   "main": "index.html",
   "scripts": {
-    "dev": "node_modules/.bin/vite --host",
+    "dev": "node_modules/.bin/vite",
     "build": "tsc && node_modules/.bin/vite build",
     "preview": "node_modules/.bin/vite preview"
   },
@@ -13,11 +13,6 @@
   "packageManager": "pnpm@10.10.0",
   "dependencies": {
     "tailwindcss": "^4.1.7",
-    "vite": "^6.3.5",
-    "ws": "^8.18.2"
-  },
-  "devDependencies": {
-    "@types/node": "^22.15.26",
-    "@types/ws": "^8.18.1"
+    "vite": "^6.3.5"
   }
 }
